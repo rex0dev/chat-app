@@ -10,6 +10,7 @@ const { PrismaClient } = require('@prisma/client');
 
 const app = express();
 
+console.log('Starting server...');
 
 const server = http.createServer(app);
 const io = new Server(server, {
